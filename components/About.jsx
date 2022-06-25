@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 
 const About = () => {
@@ -30,7 +29,7 @@ const About = () => {
           </p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-white'>
-          <Image src='/../public/assets/photo.jpg' className='rounded-xl' alt='/' width='350px' height='400px' />
+          <Image src='/../public/assets/pic.jpg' className='rounded-xl' alt='/' width='350px' height='400px' />
         </div>
       </div>
     </div>
