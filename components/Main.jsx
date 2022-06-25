@@ -27,7 +27,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-md shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 '>
+              <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300 '>
                 <FaLinkedinIn color='#DC3545'/>
               </div>
             </a>
@@ -36,17 +36,17 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-md shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub color='#DC3545'/>
               </div>
             </a>
-            <Link href='/#contact'>
-              <div className='rounded-full shadow-md shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 border-red-500'>
+            <a href="mailto:saurabhdabas7@gmail.com?subject=Important&body=Hey%20Saurabh%2C">
+              <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail color='#DC3545'/>
               </div>
-            </Link>
+            </a>
             <Link href='https://resume.creddle.io/resume/41kxny6bo27'>
-              <div className='rounded-full shadow-md shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill color='#DC3545'/>
               </div>
             </Link>
