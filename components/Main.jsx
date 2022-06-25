@@ -8,12 +8,12 @@ const Main = () => {
 
   return (
     <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center'>
         <div>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#DC3545]'>          Saurabh 👋🏼</span>
+            Hi, I&#39;m <span className='text-[#DC3545]'>Saurabh 👋🏼</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>
+          <h1 className='py-2 text-gray-700 '>
           <Typewriter onInit={(typewriter)=>{
               typewriter.typeString("A Full Stack Developer").start()
             }}/>
@@ -21,7 +21,7 @@ const Main = () => {
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           I'm passionate about building beautiful interfaces and accessible applications. Welcome to my personal slice of the internet. I'm glad you're here!
           </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4 '>
+          <div className='flex items-center justify-between max-w-[330px] mx-auto py-4 '>
             <a
               href='https://www.linkedin.com/in/saurabh-dabas-a3617b15a/'
               target='_blank'
