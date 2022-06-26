@@ -6,12 +6,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 @layer base {
   body {
-    @apply bg-[#FFF] text-[#5F7D95] tracking-wide font-mono
+    @apply text-[#5F7D95] tracking-wide font-mono 
+    bg-[url("https://img.freepik.com/free-vector/white-abstract-background_23-2148844576.jpg?t=st=1656215187~exp=1656215787~hmac=27b6afd52dc4ad3b6f0c0eb65971ac71778e4ddacd2536e4d32b0644f7bab898&w=1800")]
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -23,7 +24,11 @@ html {
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl 
+  }
+
+  p {
+    @apply dark:text-[#999999]
   }
   
   li {
