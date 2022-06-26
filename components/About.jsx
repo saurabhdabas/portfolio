@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='dark:bg-black w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-12'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#DC3545]'>
+          <p className='uppercase text-xl tracking-widest text-[#DC3545] dark:text-[#DC3545]'>
             About me
           </p>
           <h2 className='py-4'>Who I Am</h2>
@@ -28,7 +28,7 @@ const About = () => {
           When I’m not glued to my computer screen, I am probably listening to music or working out.
           </p>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-white'>
+        <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-white'>
           <Image src='/../public/assets/pic.jpg' className='rounded-xl' alt='/' width='350px' height='400px' />
         </div>
       </div>
