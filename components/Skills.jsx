@@ -3,9 +3,9 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div id='skills' className='dark:bg-black w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#DC3545]'>
+        <p className='text-xl tracking-widest uppercase text-[#DC3545] dark:text-[#DC3545]'>
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
@@ -16,7 +16,7 @@ const Skills = () => {
                 <Image src='/../public/assets/html.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML 5</h3>
+                <p>HTML 5</p>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Skills = () => {
                 <Image src='/../public/assets/css.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>CSS</h3>
+                <p>CSS</p>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Skills = () => {
                 <Image src='/../public/assets/js.webp' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Javascript</h3>
+                <p>Javascript</p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Skills = () => {
                 <Image src='/../public/assets/typescript.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Typescript</h3>
+                <p>Typescript</p>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Skills = () => {
                 <Image src='/../public/assets/react.jpg' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
+                <p>React</p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Skills = () => {
                 <Image src='/../public/assets/tailwind.jpeg' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Tailwind</h3>
+                <p>Tailwind</p>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ const Skills = () => {
                 <Image src='/../public/assets/firebase.webp' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Firebase</h3>
+                <p>Firebase</p>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Skills = () => {
                 <Image src='/../public/assets/mui.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Material UI</h3>
+                <p>Material UI</p>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ const Skills = () => {
                 <Image src='/../public/assets/node.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Node.js</h3>
+                <p>Node.js</p>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ const Skills = () => {
                 <Image src='/../public/assets/psql.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>PostgreSQL</h3>
+                <p>PostgreSQL</p>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ const Skills = () => {
                 <Image src='/../public/assets/next.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next.js</h3>
+                <p>Next.js</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ const Skills = () => {
                 <Image src='/../public/assets/jest.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Jest</h3>
+                <p>Jest</p>
               </div>
             </div>
           </div>
