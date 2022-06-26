@@ -40,7 +40,6 @@ const Navbar = ({theme,setTheme}) => {
         {/* Add Hamburger Icon to be displayed for medium screen size*/}
         <div className='flex justify-between items-center mr-5'>
           <div
-            style={{ color: `${linkColor}`}}
             onClick = {handleNavigationBar}
             className='md:hidden shadow self-center bg-white hover:bg-gray-100 focus:ring focus:ring-gray-500  dark:bg-black dark:hover:bg-gray-900 focus:outline-none rounded-md p-1.5 mr-5 cursor-pointer'
             >
