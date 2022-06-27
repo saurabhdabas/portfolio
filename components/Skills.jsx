@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div id='skills' className='dark:bg-black w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#DC3545] dark:text-[#DC3545]'>
+        <p className='text-xl tracking-widest uppercase text-red-500 dark:text-red-500'>
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
