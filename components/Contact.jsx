@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div id='contact' className='dark:bg-black w-full lg:h-full'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#DC3545] dark:text-[#DC3545]'>
+        <p className='text-xl tracking-widest uppercase text-red-500 dark:text-red-500'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -41,7 +41,7 @@ const Contact = () => {
                   src="/../public/assets/avatar.png"
                   alt='/'
                   width="500px"
-                  height="270px"
+                  height="310px"
                 />
               </div>
               <div>
