@@ -36,6 +36,6 @@ html {
   }
 
   button {
-    @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#DC3545] to-[#c44955] text-white
+    @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-red-500 to-red-700 text-white
   }
 }
