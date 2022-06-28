@@ -106,7 +106,7 @@ const Contact = () => {
                     <div className='flex flex-col'>
                       <label className='uppercase text-sm py-2 dark:text-[#999999]'>Name</label>
                       <input
-                        className='border-2 rounded-lg p-3 flex border-gray-300'
+                        className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
                         type='text'
                         name='name'
                         value={name}
@@ -116,7 +116,7 @@ const Contact = () => {
                     <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2 dark:text-[#999999]'>Email</label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
                       type='email'
                       name='email'
                       value={email}
@@ -127,17 +127,17 @@ const Contact = () => {
                   <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2 dark:text-[#999999]'>Subject</label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
                       type='text'
                       name='subject'
                       value={subject}
                       onChange={(e) => setSubject(e.target.value)}
                     />
                   </div>
-                  <div className='flex flex-col py-2 dark:text-[#999999]'>
-                    <label className='uppercase text-sm py-2'>Message</label>
+                  <div className='flex flex-col py-2 '>
+                    <label className='uppercase text-sm py-2 dark:text-[#999999]'>Message</label>
                     <textarea
-                      className='resize-none border-2 rounded-lg p-3 border-gray-300 dark:text-[#999999]'
+                      className='resize-none border-2 rounded-lg p-3 border-gray-300 dark:text-white'
                       rows='7'
                       name='message'
                       value={message}
