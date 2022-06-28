@@ -5,7 +5,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { IoMdPin } from 'react-icons/io';
 
-import { FaGithub, FaLinkedinIn, FaMapPin } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import axios from 'axios';
 
@@ -20,12 +20,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const data = {name,email,subject,message};
-    axios.post('/api/mail', data).then(()=>{
-      setName('');
-      setEmail('');
-      setSubject('');
-      setMessage('');
+    axios.post('/api/mail', data).then((res)=>{
+      console.log("res:",res);
     })
+    setName('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
   };
 
   return (
