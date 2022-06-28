@@ -20,7 +20,7 @@ const Projects = () => {
             title='Krypto'
             backgroundImg="/../public/assets/krypto.png"
             projectUrl='https://github.com/saurabhdabas/Krypto'
-            tech='React JS'
+            tech='React|PSQL|MUI|Chart.js'
           />
           <Project
             title="Who want's to be millionaire"
