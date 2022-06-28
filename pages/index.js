@@ -4,6 +4,7 @@ import Main from '../components/Main';
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
+import Projects from '../components/Projects';
 import { useTheme } from 'next-themes';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Main theme={theme} setTheme={setTheme}/>
       <About theme={theme} setTheme={setTheme}/>
       <Skills theme={theme} setTheme={setTheme}/>
+      <Projects theme={theme} setTheme={setTheme}/>
       <Contact theme={theme} setTheme={setTheme}/>
     </div>
   )
