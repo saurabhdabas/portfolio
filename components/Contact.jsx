@@ -7,6 +7,7 @@ import { IoMdPin } from 'react-icons/io';
 
 import { FaGithub, FaLinkedinIn, FaMapPin } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import axios from 'axios';
 
 
 
@@ -16,11 +17,15 @@ const Contact = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = () => {
-    setName('');
-    setEmail('');
-    setSubject('');
-    setMessage('');
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = {name,email,subject,message};
+    axios.post('/api/mail', data).then(()=>{
+      setName('');
+      setEmail('');
+      setSubject('');
+      setMessage('');
+    })
   };
 
   return (
@@ -95,8 +100,6 @@ const Contact = () => {
               <div className='p-4'>
                 <form
                   onSubmit={handleSubmit}
-                  action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
-                  method='POST'
                 >
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
