@@ -25,7 +25,7 @@ const About = () => {
           I aspire toward a career that will allow me to build inclusive and accessible applications through carefully crafted code and user-centric design that result in engaging experiences.
           </p>
           <p className='py-2 text-gray-600 text-justify'>
-          When I’m not glued to my computer screen, I am probably listening to music or working out.
+          When I&apos;m not glued to my computer screen, I am probably listening to music or working out.
           </p>
         </div>
         <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-white'>
