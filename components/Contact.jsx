@@ -53,16 +53,16 @@ const Contact = () => {
               <div>
                 <h3 className='uppercase py-2 dark:text-[#999999]'>Saurabh Dabas</h3>
                 <p className=' dark:text-[#999999]'>Full Stack Developer</p>
-                <p className='py-4 dark:text-[#999999]'>
+                <p className='py-3 dark:text-[#999999]'>
                   I am available for full-time positions and freelance.
                 </p>
-                <div className='py-4 dark:text-[#999999] flex flex-row items-center'>
+                <div className='py-3 dark:text-[#999999] flex flex-row items-center'>
                   <IoMdPin color="#DC3545"/>
                   <span className='mx-4 dark:text-[#999999]'>Edmonton, Alberta, Canada</span>
                 </div>                
               </div>
                 <div>
-                  <div className='flex items-center justify-between py-4'>
+                  <div className='flex items-center justify-between py-3'>
                     <a
                       aria-label='linkedin-icon'
                       href='https://www.linkedin.com/in/saurabh-dabas-a3617b15a/'
@@ -154,7 +154,7 @@ const Contact = () => {
                     <textarea
                       id='message'
                       className='resize-none border-2 rounded-lg p-3 border-gray-300 dark:text-white'
-                      rows='7'
+                      rows='6'
                       name='message'
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
