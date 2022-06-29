@@ -86,7 +86,11 @@ const Contact = () => {
                       <AiOutlineMail color="#DC3545"/>
                       </div>
                     </a>
-                    <a href='https://resume.creddle.io/resume/41kxny6bo27'>
+                    <a 
+                    href='https://resume.creddle.io/resume/41kxny6bo27'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
                       <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill color="#DC3545"/>
                       </div>
