@@ -12,7 +12,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600 text-justify'>
-          Hello! I&apos;m Saurabh, a full stack developer based in Edmonton,CA 🇨🇦.
+          Hello! I&#39;m Saurabh, a full stack developer based in Edmonton,CA 🇨🇦.
           </p>
           <p className='py-2 text-gray-600 text-justify'>
           I have a bachelors in technology and a certificate in project management.
