@@ -64,6 +64,7 @@ const Contact = () => {
                 <div>
                   <div className='flex items-center justify-between py-4'>
                     <a
+                      aria-label='linkedin-icon'
                       href='https://www.linkedin.com/in/saurabh-dabas-a3617b15a/'
                       target='_blank'
                       rel='noreferrer'
@@ -73,6 +74,7 @@ const Contact = () => {
                       </div>
                     </a>
                     <a
+                      aria-label='github-icon'
                       href='https://github.com/saurabhdabas'
                       target='_blank'
                       rel='noreferrer'
@@ -81,12 +83,18 @@ const Contact = () => {
                         <FaGithub color="#DC3545"/>
                       </div>
                     </a>
-                    <a href="mailto:saurabhdabas7@gmail.com?subject=Important&body=Hey%20Saurabh%2C">
+                    <a
+                    aria-label='mail-icon' 
+                    href="mailto:saurabhdabas7@gmail.com?subject=Important&body=Hey%20Saurabh%2C"
+                    target='_blank'
+                    rel='noreferrer'
+                    >
                       <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <AiOutlineMail color="#DC3545"/>
                       </div>
                     </a>
-                    <a 
+                    <a
+                    aria-label='resume-icon' 
                     href='https://resume.creddle.io/resume/41kxny6bo27'
                     target='_blank'
                     rel='noreferrer'
@@ -108,8 +116,9 @@ const Contact = () => {
                 >
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
-                      <label className='uppercase text-sm py-2 dark:text-[#999999]'>Name</label>
+                      <label for='name' className='uppercase text-sm py-2 dark:text-[#999999]'>Name</label>
                       <input
+                        id='name'
                         className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
                         type='text'
                         name='name'
@@ -118,8 +127,9 @@ const Contact = () => {
                       />
                     </div>
                     <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2 dark:text-[#999999]'>Email</label>
+                    <label for='email' className='uppercase text-sm py-2 dark:text-[#999999]'>Email</label>
                     <input
+                      id='email'
                       className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
                       type='email'
                       name='email'
@@ -129,8 +139,9 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className='flex flex-col py-2'>
-                    <label className='uppercase text-sm py-2 dark:text-[#999999]'>Subject</label>
+                    <label for='subject' className='uppercase text-sm py-2 dark:text-[#999999]'>Subject</label>
                     <input
+                      id='subject'
                       className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
                       type='text'
                       name='subject'
@@ -139,8 +150,9 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col py-2 '>
-                    <label className='uppercase text-sm py-2 dark:text-[#999999]'>Message</label>
+                    <label for='message' className='uppercase text-sm py-2 dark:text-[#999999]'>Message</label>
                     <textarea
+                      id='message'
                       className='resize-none border-2 rounded-lg p-3 border-gray-300 dark:text-white'
                       rows='7'
                       name='message'
@@ -157,14 +169,12 @@ const Contact = () => {
           </div>
           <div className='flex flex-col justify-end'>
             <Link href='#home'>
-              <a>
-                <div className='rounded-full shadow-md shadow-red-500 p-4 cursor-pointer hover:scale-110 ease-in duration-300 animate-bounce'>
-                  <HiOutlineChevronDoubleUp
-                    className='text-[#DC3545]'
-                    size={30}
-                  />
-                </div>
-              </a>
+              <div className='rounded-full shadow-md shadow-red-500 p-4 cursor-pointer hover:scale-110 ease-in duration-300 animate-bounce'>
+                <HiOutlineChevronDoubleUp
+                  className='text-[#DC3545]'
+                  size={30}
+                />
+              </div>
             </Link>
           </div>
         </div>
