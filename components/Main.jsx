@@ -10,14 +10,14 @@ const Main = () => {
     <div id='home' className='dark:bg-black  w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center'>
         <div>
-          <h2 className='py-4 text-gray-700'>
+          <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-red-600'>Saurabh 👋🏼</span>
-          </h2>
-          <h2 className='py-2 text-gray-700 '>
+          </h1>
+          <h1 className='py-2 text-gray-700 '>
           <Typewriter onInit={(typewriter)=>{
               typewriter.typeString("A Full Stack Developer").start()
             }}/>
-          </h2>
+          </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           I&apos;m passionate about building beautiful interfaces and accessible applications. Welcome to my personal slice of the internet. I&apos;m glad you&apos;re here!
           </p>
