@@ -154,7 +154,7 @@ const Contact = () => {
           <div className='flex flex-col justify-end'>
             <Link href='#home'>
               <a>
-                <div className='rounded-full shadow-md shadow-red-500 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <div className='rounded-full shadow-md shadow-red-500 p-4 cursor-pointer hover:scale-110 ease-in duration-300 animate-bounce'>
                   <HiOutlineChevronDoubleUp
                     className='text-[#DC3545]'
                     size={30}
