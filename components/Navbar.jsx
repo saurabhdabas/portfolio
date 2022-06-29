@@ -13,8 +13,8 @@ const Navbar = ({theme,setTheme}) => {
   return (
     <div className='dark:bg-black  fixed w-full h-20 z-[100] bg-[#F6F6F6]'>
       <div className='flex justify-between items-center w-full h-full 2xl:px-32'>
-        <div className='flex justify-between items-center p-2 text-[#DC3545] text-xl'>
-          <div className="ml-15">
+        <div className='flex justify-between items-center p-2 text-[#DC3545] text-lg'>
+          <div className="pl-15">
             <Image src="/assets/new.png" width="90px" height="70px" alt=""/>
           </div>
           <div>
