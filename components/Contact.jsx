@@ -30,9 +30,9 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='dark:bg-black w-full lg:h-full'>
+    <div id='contact' className='dark:bg-black w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-red-500 dark:text-red-500'>
+        <p className='text-xl tracking-widest uppercase text-red-500 dark:text-red-500 mt-10'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -41,13 +41,13 @@ const Contact = () => {
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
-              <div className='ml-11'>
+              <div className='ml-14'>
                 <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
                   src="/assets/navatar.png"
                   alt='/'
-                  width="280px"
-                  height="230px"
+                  width="250px"
+                  height="200px"
                 />
               </div>
               <div>
