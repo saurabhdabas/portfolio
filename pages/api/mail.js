@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-export default function (req, res) {
+export default function mail(req, res) {
   require('dotenv').config();
   const nodemailer = require('nodemailer');
   

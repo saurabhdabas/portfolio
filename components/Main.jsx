@@ -19,7 +19,7 @@ const Main = () => {
             }}/>
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I'm passionate about building beautiful interfaces and accessible applications. Welcome to my personal slice of the internet. I'm glad you're here!
+          I&apos;m passionate about building beautiful interfaces and accessible applications. Welcome to my personal slice of the internet. I&apos;m glad you&apos;re here!
           </p>
           <div className='flex items-center justify-between max-w-[330px] mx-auto py-4 '>
             <a
