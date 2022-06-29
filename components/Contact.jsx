@@ -40,14 +40,14 @@ const Contact = () => {
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4'>
-            <div className='lg:p-4 h-full '>
-              <div>
+            <div className='lg:p-4 h-full'>
+              <div className='ml-7'>
                 <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
                   src="/../public/assets/navatar.png"
                   alt='/'
-                  width="370px"
-                  height="310px"
+                  width="310px"
+                  height="250px"
                 />
               </div>
               <div>
