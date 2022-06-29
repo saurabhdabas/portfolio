@@ -3,7 +3,7 @@ import Project from './Project';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full dark:bg-black'>
+    <div id='projects' className='w-full h-screen dark:bg-black'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-red-500 dark:text-red-500 text-xl tracking-widest uppercase mt-12'>
           Projects
