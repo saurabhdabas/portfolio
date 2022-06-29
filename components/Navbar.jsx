@@ -19,19 +19,19 @@ const Navbar = ({theme,setTheme}) => {
           </div>
           <div>
             <ul  className='hidden md:flex dark:text-[#999999] text-black'>
-              <li className='ml-20 text-lg hover:text-[#DC3545] p-2 rounded-lg'>
+              <li className='ml-20 text-md hover:text-[#DC3545] p-2 rounded-lg'>
                 <Link href='/'>Home</Link>
               </li>
-              <li className='ml-10 text-lg  hover:text-[#DC3545] p-2 rounded-lg'>
+              <li className='ml-10 text-md  hover:text-[#DC3545] p-2 rounded-lg'>
                 <Link href='/#about'>About</Link>
               </li>
-              <li className='ml-10 text-lg  hover:text-[#DC3545] p-2 rounded-lg'>
+              <li className='ml-10 text-md  hover:text-[#DC3545] p-2 rounded-lg'>
                 <Link href='/#skills'>Skills</Link>
               </li>
-              <li className='ml-10 text-lg  hover:text-[#DC3545] p-2 rounded-lg'>
+              <li className='ml-10 text-md  hover:text-[#DC3545] p-2 rounded-lg'>
                 <Link href='/#projects'>Projects</Link>
               </li>
-              <li className='ml-10 text-lg  hover:text-[#DC3545] p-2 rounded-lg'>
+              <li className='ml-10 text-md  hover:text-[#DC3545] p-2 rounded-lg'>
                 <Link href='/#contact'>Contact</Link>
               </li>
             </ul>

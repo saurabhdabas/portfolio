@@ -11,7 +11,7 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center'>
         <div>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-red-600'>Saurabh 👋🏼</span>
+            Hi,I&#39;m <span className='text-red-600'>Saurabh 👋🏼</span>
           </h1>
           <h1 className='py-2 text-gray-700 '>
           <Typewriter onInit={(typewriter)=>{
