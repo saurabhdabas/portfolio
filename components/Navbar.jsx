@@ -15,7 +15,7 @@ const Navbar = ({theme,setTheme}) => {
       <div className='flex justify-between items-center w-full h-full 2xl:px-32'>
         <div className='flex justify-between items-center p-2 text-[#DC3545] text-xl'>
           <div className=" mx-8">
-            <Image src="/../public/assets/new.png" width="90px" height="70px" alt=""/>
+            <Image src="/assets/new.png" width="90px" height="70px" alt=""/>
           </div>
           <div>
             <ul  className='hidden md:flex dark:text-[#999999] text-black'>

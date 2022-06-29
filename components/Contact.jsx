@@ -44,7 +44,7 @@ const Contact = () => {
               <div className='ml-7'>
                 <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src="/../public/assets/navatar.png"
+                  src="/assets/navatar.png"
                   alt='/'
                   width="310px"
                   height="250px"

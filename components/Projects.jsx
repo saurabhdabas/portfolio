@@ -12,37 +12,37 @@ const Projects = () => {
         <div className='grid md:grid-cols-3 gap-8'>
           <Project
             title='Storybook'
-            backgroundImg="/../public/assets/storybook.png"
+            backgroundImg="/assets/storybook.png"
             projectUrl='https://github.com/saurabhdabas/storybook-Built-in-Firebase-React-MUI'
             tech='React|Firebase|MUI'
           />
           <Project
             title='Krypto'
-            backgroundImg="/../public/assets/krypto.png"
+            backgroundImg="/assets/krypto.png"
             projectUrl='https://github.com/saurabhdabas/Krypto'
             tech='React|PSQL|MUI|Chart.js'
           />
           <Project
             title="Who want's to be millionaire"
-            backgroundImg="/../public/assets/quiz.png"
+            backgroundImg="/assets/quiz.png"
             projectUrl='https://github.com/saurabhdabas/WhoWantsToBeMillionarie-Built-in-Typescript'
             tech='Typescript'
           />
           <Project
             title='Healthify'
-            backgroundImg="/../public/assets/healthify.png"
+            backgroundImg="/assets/healthify.png"
             projectUrl='https://github.com/saurabhdabas/healthify--Built-in-React-MUI'
             tech='React|MUI'
           />
           <Project
             title='Interview Scheduler'
-            backgroundImg="/../public/assets/interview.png"
+            backgroundImg="/assets/interview.png"
             projectUrl='https://github.com/saurabhdabas/interview-scheduler'
             tech='React|Jest|Storybook|Cypress'
           />
           <Project
             title='Tweeter'
-            backgroundImg="/../public/assets/tweeter.png"
+            backgroundImg="/assets/tweeter.png"
             projectUrl='https://github.com/saurabhdabas/tweetagram'
             tech='JS|JQuery|Ajax'
           />

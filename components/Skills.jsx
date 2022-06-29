@@ -13,7 +13,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/html.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/html.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>HTML 5</p>
@@ -23,7 +23,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/css.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/css.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>CSS</p>
@@ -33,7 +33,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/js.webp' width='64px' height='64px' alt='/' />
+                <Image src='/assets/js.webp' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Javascript</p>
@@ -43,7 +43,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/typescript.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/typescript.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Typescript</p>
@@ -53,7 +53,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/react.jpg' width='64px' height='64px' alt='/' />
+                <Image src='/assets/react.jpg' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>React</p>
@@ -63,7 +63,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/tailwind.jpeg' width='64px' height='64px' alt='/' />
+                <Image src='/assets/tailwind.jpeg' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Tailwind</p>
@@ -73,7 +73,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/firebase.webp' width='64px' height='64px' alt='/' />
+                <Image src='/assets/firebase.webp' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Firebase</p>
@@ -83,7 +83,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/mui.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/mui.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Material UI</p>
@@ -93,7 +93,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/node.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/node.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Node.js</p>
@@ -103,7 +103,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/psql.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/psql.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>PostgreSQL</p>
@@ -113,7 +113,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/next.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/next.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Next.js</p>
@@ -123,7 +123,7 @@ const Skills = () => {
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/../public/assets/jest.png' width='64px' height='64px' alt='/' />
+                <Image src='/assets/jest.png' width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <p>Jest</p>
