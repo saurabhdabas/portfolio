@@ -23,6 +23,7 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] mx-auto py-4 '>
             <a
+              aria-label='linkedin-icon'
               href='https://www.linkedin.com/in/saurabh-dabas-a3617b15a/'
               target='_blank'
               rel='noreferrer'
@@ -32,6 +33,7 @@ const Main = () => {
               </div>
             </a>
             <a
+              aria-label='github-icon'
               href='https://github.com/saurabhdabas'
               target='_blank'
               rel='noreferrer'
@@ -40,16 +42,26 @@ const Main = () => {
                 <FaGithub color='#DC3545'/>
               </div>
             </a>
-            <a href="mailto:saurabhdabas7@gmail.com?subject=Important&body=Hey%20Saurabh%2C">
+            <a
+            aria-label='mail-icon'
+            href="mailto:saurabhdabas7@gmail.com?subject=Important&body=Hey%20Saurabh%2C"
+            target='_blank'
+            rel='noreferrer'
+            >
               <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail color='#DC3545'/>
               </div>
             </a>
-            <Link href='https://resume.creddle.io/resume/41kxny6bo27'>
+            <a
+            aria-label='resume-icon'
+            href='https://resume.creddle.io/resume/41kxny6bo27'
+            target='_blank'
+            rel='noreferrer'
+            >
               <div className='rounded-full shadow-md shadow-red-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill color='#DC3545'/>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
