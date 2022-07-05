@@ -19,7 +19,7 @@ const About = () => {
           I left my full time job as Assistant Store Manager at Shoppers drug mart to pursue Diploma of Education in Full Stack Web Development at Lighthouse labs.
           </p>
           <p className='py-2 text-gray-600 text-justify'>
-          I have experience designing and developing applications for the web, from simple landing pages to progressive web applications.
+          I have experience designing and developing applications for the web, from simple landing pages to complex web applications.
           </p>
           <p className='py-2 text-gray-600 text-justify'>
           I aspire toward a career that will allow me to build inclusive and accessible applications through carefully crafted code and user-centric design that result in engaging experiences.
