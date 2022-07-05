@@ -8,9 +8,8 @@ This is a next.js based portfolio website.The project bootstrapped with [`create
   - Next.js, Tailwind CSS
 
 ## Project In Action
-- User can search Exercises
 
-![""](https://github.com/saurabhdabas/healthify--Built-in-React-MUI/blob/master/docs/healthify-1.gif?raw=true)
+![""](https://github.com/saurabhdabas/portfolio/blob/main/docs/portfolio.gif?raw=true)
 
 
 ## Getting Started
