@@ -10,124 +10,100 @@ const Skills = () => {
         </p>
         <h2 className='py-4'>What I Can Do</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-          <div className='p-6 shadow-md shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/html.png' width='64px' height='64px' alt='/' />
-              </div>
+        <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>HTML 5</p>
+              <Image src='/assets/html.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>HTML 5</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/css.png' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>CSS</p>
+              <Image src='/assets/css.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>CSS</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/js.webp' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Javascript</p>
+              <Image src='/assets/js.webp' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Javascript</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/typescript.png' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Typescript</p>
+              <Image src='/assets/typescript.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Typescript</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/react.jpg' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>React</p>
+              <Image src='/assets/react.jpg' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>React</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/tailwind.jpeg' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Tailwind</p>
+              <Image src='/assets/tailwind.jpeg' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Tailwind</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/firebase.webp' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Firebase</p>
+              <Image src='/assets/firebase.webp' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Firebase</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/mui.png' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Material UI</p>
+              <Image src='/assets/mui.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Material UI</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/node.png' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Node.js</p>
+              <Image src='/assets/node.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Node.Js</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/psql.png' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>PostgreSQL</p>
+              <Image src='/assets/psql.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>PostgreSQL</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/next.png' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Next.js</p>
+              <Image src='/assets/next.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Next.Js</p>
             </div>
           </div>
           <div className='p-6 shadow-md shadow-gray-400  rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/assets/jest.png' width='64px' height='64px' alt='/' />
-              </div>
+            <div className='sm:flex sm:flex-col lg:grid lg:grid-cols-2 lg:gap-6 items-center justify-center '>
               <div className='flex flex-col items-center justify-center'>
-                <p>Jest</p>
+              <Image src='/assets/jest.png' width='64' height='64' alt='/'/>
               </div>
+              <p className='text-center'>Jest</p>
             </div>
           </div>
         </div>
