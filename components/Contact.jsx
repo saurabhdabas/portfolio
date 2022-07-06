@@ -27,6 +27,7 @@ const Contact = () => {
     setEmail('');
     setSubject('');
     setMessage('');
+    alert('Your message has been sent!');
   };
 
   return (
@@ -116,7 +117,7 @@ const Contact = () => {
                 >
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
-                      <label for='name' className='uppercase text-sm py-2 dark:text-[#999999]'>Name</label>
+                      <label htmlFor='name' className='uppercase text-sm py-2 dark:text-[#999999]'>Name</label>
                       <input
                         id='name'
                         className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
@@ -127,7 +128,7 @@ const Contact = () => {
                       />
                     </div>
                     <div className='flex flex-col'>
-                    <label for='email' className='uppercase text-sm py-2 dark:text-[#999999]'>Email</label>
+                    <label htmlFor='email' className='uppercase text-sm py-2 dark:text-[#999999]'>Email</label>
                     <input
                       id='email'
                       className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
@@ -139,7 +140,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className='flex flex-col py-2'>
-                    <label for='subject' className='uppercase text-sm py-2 dark:text-[#999999]'>Subject</label>
+                    <label htmlFor='subject' className='uppercase text-sm py-2 dark:text-[#999999]'>Subject</label>
                     <input
                       id='subject'
                       className='border-2 rounded-lg p-3 flex border-gray-300 dark:text-white'
@@ -150,7 +151,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col py-2 '>
-                    <label for='message' className='uppercase text-sm py-2 dark:text-[#999999]'>Message</label>
+                    <label htmlFor='message' className='uppercase text-sm py-2 dark:text-[#999999]'>Message</label>
                     <textarea
                       id='message'
                       className='resize-none border-2 rounded-lg p-3 border-gray-300 dark:text-white'
