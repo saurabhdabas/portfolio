@@ -4,7 +4,7 @@ export default function mail(req, res) {
   require('dotenv').config();
   if (req.method === 'POST') {
     // Process a POST request
-     res.send(req.body);
+    res.status(200).json(req.body)
   }
   
   const nodemailer = require('nodemailer');
