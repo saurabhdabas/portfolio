@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { IoMdPin } from 'react-icons/io';
 
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
@@ -71,7 +70,14 @@ const Contact = () => {
                   I am available for full-time positions and freelance.
                 </p>
                 <div className='py-3 dark:text-[#999999] flex flex-row items-center'>
-                  <IoMdPin color="#DC3545"/>
+                <Image
+                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  src="/assets/location.gif"
+                  alt='/'
+                  width="35px"
+                  height="30px"
+                />
+                  
                   <span className='mx-4 dark:text-[#999999]'>Edmonton, Alberta, Canada</span>
                 </div>                
               </div>
