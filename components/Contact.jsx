@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { IoMdPin } from 'react-icons/io';
@@ -16,19 +16,32 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const [post,setPost]=useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = {name,email,subject,message};
-    axios.post('/api/mail', data).then((res)=>{
-      console.log("res:",res);
-    })
-    setName('');
-    setEmail('');
-    setSubject('');
-    setMessage('');
+    console.log("clicked");
+    setPost(true);
     alert('Your message has been sent!');
   };
+
+  useEffect(()=>{
+    const data = {name,email,subject,message};
+    if(post){
+      axios.post('/api/mail', data).then((response) => {
+        console.log("response:",response);
+        console.log('success');
+        setName('');
+        setEmail('');
+        setSubject('');
+        setMessage('');
+        setPost(false);
+      })
+      .catch((error) => {
+        console.log('fail', error);
+      });
+    }
+  },[post])
 
   return (
     <div id='contact' className='dark:bg-black w-full lg:h-screen px-2 pb-5'>
