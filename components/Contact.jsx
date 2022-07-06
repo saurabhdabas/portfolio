@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div id='contact' className='dark:bg-black w-full lg:h-screen px-2 pb-5'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-red-500 dark:text-red-500 mt-13'>
+        <p className='text-xl tracking-widest uppercase text-red-500 dark:text-red-500 mt-10'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
