@@ -2,14 +2,15 @@
 
 export default function mail(req, res) {
   require('dotenv').config();
+  
   const nodemailer = require('nodemailer');
   
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       type: 'OAuth2',
-      user: process.env.username,
-      pass: process.env.password,
+      user: `${process.env.username}@gmail.com`,
+      pass: `${process.env.password}@1993`,
       clientId: process.env.clientID,
       clientSecret: process.env.clientSecret,
       refreshToken: process.env.refreshToken
@@ -25,7 +26,7 @@ export default function mail(req, res) {
     to: 'saurabhdabas0@gmail.com',
   
     // Subject of Email
-    subject: `Message is from ${req.body.name}`,
+    subject: `Message is from ${req.body.name} with ${req.body.email}`,
       
     // This would be the text of email body
     text: `${req.body.message}`
