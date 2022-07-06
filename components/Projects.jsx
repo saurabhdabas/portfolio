@@ -3,8 +3,8 @@ import Project from './Project';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full h-screen dark:bg-black'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
+    <div id='projects' className='w-full lg:h-screen dark:bg-black p-2'>
+      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-red-500 dark:text-red-500 text-xl tracking-widest uppercase mt-10'>
           Projects
         </p>

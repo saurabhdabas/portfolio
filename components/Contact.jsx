@@ -30,13 +30,13 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='dark:bg-black w-full lg:h-screen'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
+    <div id='contact' className='dark:bg-black w-full lg:h-screen px-2 pb-5'>
+      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-red-500 dark:text-red-500 mt-10'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
-      <div className="grid grid-flow-col gap-8">
+      <div className="grid lg:grid-flow-col gap-8">
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4'>
