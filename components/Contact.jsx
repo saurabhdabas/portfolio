@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const data = {name,email,subject,message};
-    axios.post('https://portfolio-saurabhdabas.vercel.app/api/mail', data).then((res)=>{
+    axios.post('/api/mail', data).then((res)=>{
       console.log("res:",res);
     })
     setName('');
