@@ -78,7 +78,7 @@ const Contact = () => {
                   height="30px"
                 />
                   
-                  <span className='mx-4 dark:text-[#999999]'>Edmonton, Alberta, Canada</span>
+                  <span className='mx-4 dark:text-[#999999]'>Calgary, Alberta, Canada</span>
                 </div>                
               </div>
                 <div>
