@@ -4,8 +4,8 @@ import React from 'react';
 
 const Project = ({title, backgroundImg, tech, projectUrl}) => {
   return (
-    <div className='relative flex items-center justify-center h-auto w-10/12 shadow-md shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-red-500 to-red-800'>
-    <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/' width="400px" height="225px" /> 
+    <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-red-500 to-red-800'>
+    <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/' width="400px" height="300px" /> 
     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <h3 className='text-xl text-white tracking-wider text-center'>{title}</h3>
         <p className='pb-4 pt-2 text-white text-center dark:text-white'>{tech}</p>
