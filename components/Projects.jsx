@@ -9,7 +9,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid lg:grid-cols-3 gap-5 pb-10'>
+        <div className='grid lg:grid-cols-3 gap-5 pb-10 justify-center'>
         <Project
             title='Easy Invoice'
             backgroundImg="/assets/Dashboard.png"
