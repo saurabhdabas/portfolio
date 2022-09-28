@@ -10,6 +10,18 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid lg:grid-cols-3 gap-8 pb-10'>
+        <Project
+            title='Easy Invoice'
+            backgroundImg="/assets/Dashboard.png"
+            projectUrl='https://github.com/saurabhdabas/easyinvoice'
+            tech='React|Express.js|Psql'
+          />
+          <Project
+            title='PyBlog'
+            backgroundImg="/assets/PyBlog.png"
+            projectUrl='https://github.com/saurabhdabas/PyBlog'
+            tech='Python|Django'
+          />
           <Project
             title='Storybook'
             backgroundImg="/assets/storybook.png"
